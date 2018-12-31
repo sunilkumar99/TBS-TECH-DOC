@@ -1,0 +1,10 @@
+ cd /usr/
+ tar -xvzf libevent-1.4.14b-stable.tar.gz 
+cd libevent-1.4.14b-stable
+ yum install gcc -y 
+./configure --prefix=/usr/libevent --enable-thread-support;make;make install
+ tar -xvzf memcached-1.2.8-repcached-2.2.1.tar.gz
+  cd memcached-1.2.8-repcached-2.2.1
+ ./configure --prefix=/opt/memcached-rep --enable-64bit --enable-replication --with-libevent=/usr/libevent;make;make install
+   ln -s /usr/libevent/lib/libevent-1.4.so.2 /usr/lib64/libevent-1.4.so.2
+nohup /opt/memcached-rep/bin/memcached -u root -l 172.29.75.227 -p 11211 -m 2048M -x 172.29.75.228 -vv >> /opt/mem_11211.out &

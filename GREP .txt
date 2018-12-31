@@ -1,0 +1,7 @@
+nohup sed -n '/20\/Mar\/2017/,/8\/May\/2017/ p' /ndata/HTTP_LOG/access_https_102_log > /ndata/HTTP_LOG/20Mar17-2-7May17/access_https_20Mar17-to-7May17-APP2-102.log &
+nohup sed -n '/20\/Mar\/2017/,/8\/May\/2017/ p' /ndata/HTTP_LOG/access_https_103_log > /ndata/HTTP_LOG/20Mar17-2-7May17/access_https_20Mar17-to-7May17-APP3-103.log &
+nohup sed -n '/20\/Mar\/2017/,/8\/May\/2017/ p' /ndata/HTTP_LOG/access_https_104_log > /ndata/HTTP_LOG/20Mar17-2-7May17/access_https_20Mar17-to-7May17-APP4-104.log &
+nohup sed -n '/20\/Mar\/2017/,/8\/May\/2017/ p' /ndata/HTTP_LOG/access_https_105_log > /ndata/HTTP_LOG/20Mar17-2-7May17/access_https_20Mar17-to-7May17-APP5-105.log &
+nohup sed -n '/20\/Mar\/2017/,/8\/May\/2017/ p' /ndata/HTTP_LOG/access_https_log_151_log > /ndata/HTTP_LOG/20Mar17-2-7May17/access_https_20Mar17-to-7May17-APP6-151.log &
+nohup sed -n '/20\/Mar\/2017/,/8\/May\/2017/ p' /ndata/HTTP_LOG/access_https_log_152_log > /ndata/HTTP_LOG/20Mar17-2-7May17/access_https_20Mar17-to-7May17-APP6-152.log &
+nohup sed -n '/20\/Mar\/2017/,/8\/May\/2017/ p' /ndata/HTTP_LOG/access_https_log_153_log > /ndata/HTTP_LOG/20Mar17-2-7May17/access_https_20Mar17-to-7May17-APP6-153.log &

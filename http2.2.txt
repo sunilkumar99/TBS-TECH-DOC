@@ -1,0 +1,20 @@
+ cd /tmp/
+ ls
+ http://ipinfo.io/ip -qO 
+ wget http://ipinfo.io/ip -qO 
+ wget http://ipinfo.io/ip 
+ ls
+ more ip
+ wget http://ipinfo.io/ip 
+ more ip.1 
+ ssh 180.179.57.204
+ ps -ef
+ ps -ef | grep java 
+ rpm -qa | grep http
+ ifconfig 
+ rpm -qa | grep php
+ cat /etc/chef/first-boot.json 
+ cat /etc/chef/client.rb 
+ httpd -v
+ httpd -M
+ httpd -v

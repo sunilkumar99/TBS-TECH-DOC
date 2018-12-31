@@ -1,0 +1,2 @@
+http://dev-notes.eu/2015/10/backup-rsync-between-devices/
+https://earlruby.org/2013/05/creating-differential-backups-with-hard-links-and-rsync/
