@@ -1,0 +1,20 @@
+784  yum install -y python-pip python-devel python-virtualenv
+  785  ps -ef | grep jem
+  786  ps -ef 
+  787  yum install -y python-pip python-devel python-virtualenv
+  788  virtualenv jupyter-virtualenv
+  789  yum groupinstall 'Development Tools'
+  790  virtualenv jupyter-virtualenv
+  791  source jupyter-virtualenv/bin/activate
+  792  pip install jupyter
+  793  jupyter notebook password
+  794  jupyter notebook
+  795  jupyter notebook --allow-root &
+  796  jobs
+  797  kill -9 %1
+  798  vi /root/.jupyter/jupyter_notebook_config.py
+  799  jupyter notebook --generate-config
+  800  python -c 'from notebook.auth import passwd ; password = passwd() ; print password'
+  801  vi /root/.jupyter/jupyter_notebook_config.py
+
+  803  nohup jupyter notebook --allow-root &
