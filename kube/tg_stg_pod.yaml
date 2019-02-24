@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tg-stg-pod
+  labels:
+    env: stg
+    app: tg
+spec:
+  containers:
+  - image:  sunilkumar1984/linux_based:techgig
+    name: tg-stg-pod
+    ports:
+    - containerPort: 80
+      protocol: TCP

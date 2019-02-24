@@ -1,0 +1,9 @@
+kind: Endpoints
+apiVersion: v1
+metadata:
+  name: frontend-service
+subsets:
+  - addresses:
+      - ip: 172.29.75.201
+    ports:
+      - port: 80

@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: techgigrc
+spec:
+  replicas: 3
+  selector:
+    env: stg
+  template:
+    metadata:
+      name: techgigrc
+      labels:
+        env: stg
+    spec:
+      containers:
+      - name: techgig-stg
+        image: nginx
+        ports:
+        - containerPort: 80
+
